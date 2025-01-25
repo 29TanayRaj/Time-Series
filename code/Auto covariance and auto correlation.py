@@ -1,18 +1,17 @@
 import numpy as np
 
-def auto_covariance(series, t, s):
+def auto_covariance(series, lag):
     '''
     Compute the auto-covariance of a time series.
 
     Parameters:
     series: List or numpy array representing the time series.
-    t: Index for the first time stamp.
-    s: Index for the second time stamp.
+    lag: Time Lag.
 
     Returns:
     Auto-covariance value.
     '''
-    lag = abs(t - s)
+
     series_t = np.array(series[:len(series) - lag])
     series_s = np.array(series[lag:])
 
@@ -26,19 +25,17 @@ def auto_covariance(series, t, s):
     return result
 
 
-def auto_correlation(series, t, s):
+def auto_correlation(series, lag):
     '''
     Compute the auto-correlation of a time series.
 
     Parameters:
     series: List or numpy array representing the time series.
-    t: Index for the first time stamp.
-    s: Index for the second time stamp.
+    lag: Time Lag.
 
     Returns:
     Auto-correlation value.
     '''
-    lag = abs(t - s)
     series_t = np.array(series[:len(series) - lag])
     series_s = np.array(series[lag:])
 
