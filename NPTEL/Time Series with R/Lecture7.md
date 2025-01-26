@@ -127,10 +127,18 @@
 - **Defination**:
   - Rather than using the past values of the forecast variable in a regression, a MA model uses the past errors in a regression like model. If the model uses last $q$ errors, its called a MA(q) model.
 
-    $$Y_{t} = c + e_{t} + \phi_{1}e_{t-1}+\cdots+\phi_{q}e_{t-q}$$
-
+    $$Y_{t} = C + e_{t} + \phi_{1}e_{t-1}+\cdots+\phi_{q}e_{t-q}$$
+    
 Each value of $Y_{t}$ can be considered as a weighted moving average of past forecast errors.
 A MA model is suitable for an irrugular component.
+
+### 3. Auto-Regressive Moving Average: ARMA(p,q)
+- **Defination**:
+  - This is the combination of both auto regressive model and moving average model
+
+ $$Y_t = C + \phi_1 Y_{t-1} + \phi_2 Y_{t-2} + \dots + \phi_p Y_{t-p} + e_{t} + \phi_{1}e_{t-1}+\cdots+\phi_{q}e_{t-q}$$
+
+
 
 
 ---
@@ -139,7 +147,7 @@ A MA model is suitable for an irrugular component.
 
 | **Model**         | **Formula**                       | **Key Features**                                                        |
 |--------------------|-----------------------------------|--------------------------------------------------------------------------|
-| **White Noise**    | $Y_t = e_t$                 | Purely random; IID errors.                                               |
+| **White Noise**    | $Y_t = e_t$                 | Purely random; i.i.d errors.                                               |
 | **Moving Average** | $Y_t = e_t + \phi e_{t-1}$  | Weighted influence of current and past errors.                          |
 | **Random Walk**    | $Y_t = Y_{t-1} + e_t$       | Cumulative sum of random errors; no trend or fixed pattern.             |
 | **Linear Trend**   | $Y_t = A + B \cdot t + e_t$ | Consistent upward/downward trend; slope $B$ determines the direction.|
