@@ -9,7 +9,7 @@
 
 ### **Weak Stationarity**
 - Also known as **covariant stationarity** or **stationarity in a wide sense**.
-- A time series is said to be covaiance stationary if its first and second order moments are unffected by a change of time origin.
+- A time series is said to be covariance stationary if its first and second order moments are unffected by a change of time origin.
 - This leads to the following properties. 
 - **Properties**:
   - Mean function is constant: $\( \mu_Y = \text{constant} $\).
