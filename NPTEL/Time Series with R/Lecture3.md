@@ -1,4 +1,5 @@
-## **Introduction to Time Series**
+# Lecture 3: Stationarity in Time Series
+
 - **Definition and Examples**:
   - Time series data differs from other statistical data due to its temporal component.
   - Examples include fields like finance, ecology, and climatology.
