@@ -1,4 +1,4 @@
-# Time Series Forecasting Lecture Notes
+# Lecture 2: Examples of Time Series Data
 
 ## Lecture Overview
 - **Course**: Time Series Forecasting with Applications in R
