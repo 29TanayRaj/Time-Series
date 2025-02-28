@@ -1,4 +1,5 @@
-### **Main Topics**
+# Lecture 6: Time Series Decomposition
+
 1. **Time Series Decomposition**:
    - Breaking a time series into its components.
 2. **Introduction to Basic Time Series Models**:
@@ -11,11 +12,11 @@
 
 ## **Time Series Decomposition**
 ### **Purpose**
-- Break a time series (denoted as \(Y_t\)) into four main components:
-  1. **Trend Component (T\(_t\))**: Represents long-term movement. Also known as secular trend.
-  2. **Seasonal Component (S\(_t\))**: Captures periodic variations within a cycle of ≤1 year. Also known as sesonality.
-  3. **Cyclical Component (C\(_t\))**: Describes gradual and long-term up-and-down movements with a cycle >1 year.
-  4. **Random/Irregular Component (I\(_t\))**: Captures noise or unpredictable fluctuations.
+- Break a time series (denoted as $Y_t$) into four main components:
+  1. **Trend Component $T_t$**: Represents long-term movement. Also known as secular trend.
+  2. **Seasonal Component $S_t$**: Captures periodic variations within a cycle of ≤1 year. Also known as sesonality.
+  3. **Cyclical Component $C_t$**: Describes gradual and long-term up-and-down movements with a cycle >1 year.
+  4. **Random/Irregular Component $I_t$**: Captures noise or unpredictable fluctuations.
 
 ---
 
@@ -40,12 +41,12 @@
 ---
 
 ## **Details of Components**
-### 1. **Trend Component (T\(_t\))**
+### 1. **Trend Component (T_t)**
    - Represents long-term movement over time.
    - Observed over an extended period (not short-term).
    - Change in average/mean level.
 
-### 2. **Seasonal Component (S\(_t\))**
+### 2. **Seasonal Component (S_t)**
    - Regular, periodic variation within a cycle of ≤1 year.
    - **Example**:
      - Monthly temperature data:
@@ -54,13 +55,13 @@
    - **Key Attribute**:
      - Cycle period ≤1 year.
 
-### 3. **Cyclical Component (C\(_t\))**
+### 3. **Cyclical Component (C_t)**
    - Gradual and long-term up-and-down movements.
    - **Difference from Seasonality**:
      - Cycle period >1 year (typically ≥2 years).
      - Less regular compared to seasonal patterns.
 
-### 4. **Random/Irregular Component (I\(_t\))**
+### 4. **Random/Irregular Component (I_t)**
    - Represents noise or random fluctuations.
    - **Characteristics**:
      - No predictable pattern or structure.
@@ -85,7 +86,7 @@
 
 ## **Random Variations**
 ### **Definition**
-- Denoted as \( I_t \), these are **unpredictable, irregular fluctuations** in the data.
+- Denoted as $I_t$, these are **unpredictable, irregular fluctuations** in the data.
 - They result from **entirely random movements** and lack any identifiable pattern, trend, seasonality, or cyclicality.
 
 ### **Role in Time Series**
