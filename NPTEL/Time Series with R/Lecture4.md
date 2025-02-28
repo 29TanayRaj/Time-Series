@@ -1,4 +1,5 @@
-### **Stationarity**
+# Lecture 4: Weak Vs. Strong Stationarity
+
 - **Definition**: A time series is stationary if its statistical properties (mean, variance, autocovariance) are constant over time.
 - Types of Stationarity:
   - **Strong Stationarity**: The joint distribution of the process is time-invariant.
