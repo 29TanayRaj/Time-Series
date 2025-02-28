@@ -1,3 +1,4 @@
+# Lecture 8: Autocorrelation and the Partial Autocorrelation Functions
 
 ### **1. Auto Covariance and Auto Correlation Functions**
 - **Auto Covariance Function (ACF)**:
