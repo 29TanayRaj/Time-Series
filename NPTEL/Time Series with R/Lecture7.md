@@ -1,4 +1,4 @@
-## Time Series Decomposition
+# Lecture 7: Basic Time Series Processes
 
 ### Additive Decomposition
 - **Definition**:
