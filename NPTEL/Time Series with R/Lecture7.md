@@ -6,10 +6,10 @@
     
    $$Y_t = T_t + S_t + C_t + I_t$$
     
-    - $Y_t$: Observed value at time $t$.
-    - $T_t$: Trend component (long-term movement).
-    - $S_t$: Seasonal component (regular pattern over a fixed period).
-    - $C_t$: Cyclical component (medium-to-long-term oscillation).
+    - $$Y_t$$: Observed value at time $t$.
+    - $$T_t$$: Trend component (long-term movement).
+    - $$S_t$$: Seasonal component (regular pattern over a fixed period).
+    - $$C_t$$: Cyclical component (medium-to-long-term oscillation).
     - $I_t$: Irregular component (random or unexplained variation).
 - **Characteristics**:
   - Each component represents an absolute quantity.
